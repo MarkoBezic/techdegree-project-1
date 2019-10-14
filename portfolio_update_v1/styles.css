@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.8) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -119,7 +119,13 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
-
+main {
+  text-align: center;
+  background: url('images/SplitCro.jpg') no-repeat bottom center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 10px;
+}
 footer {
   width: 100%;
   min-height: 30px;
